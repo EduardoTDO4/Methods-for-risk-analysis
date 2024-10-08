@@ -1,8 +1,8 @@
 using Random, Distributions
 
+Random.seed!(4)
+
 function GBM(μ::Float64,σ::Float64,initial_value::Float64,step::Float64,N::Int64)
-    
-    Random.seed!(4)
 
     t_1 = 0
 
